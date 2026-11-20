@@ -1,0 +1,18 @@
+PÁGINA DE VENDAS — 30 DIAS DE FÉRIAS SEM TELAS
+
+1) COLOCAR OS LINKS DE CHECKOUT
+   Abra o arquivo script.js e troque, no topo:
+     CHECKOUT_SIMPLES   -> link do checkout de R$14,00
+     CHECKOUT_COMPLETO  -> link do checkout de R$24,00
+     CHECKOUT_UPGRADE   -> link do checkout promocional de R$19,90
+   Use o link completo, começando com https://
+   Enquanto não trocar, os botões mostram um aviso em vez de abrir o checkout.
+   Os parâmetros da URL (UTMs dos anúncios) são repassados automaticamente para o checkout.
+
+2) PUBLICAR NA NETLIFY
+   app.netlify.com > Add new site > Deploy manually > arraste a pasta inteira (ou o .zip).
+
+3) ANTES DE ANUNCIAR
+   - Configure a garantia de 30 dias na plataforma de pagamento (a página promete 30 dias).
+   - Os comentários da 2ª dobra estão marcados como exemplos ilustrativos. Quando tiver
+     depoimentos reais de clientes (com autorização), substitua no index.html.
